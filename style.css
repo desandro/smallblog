@@ -1,0 +1,292 @@
+/*
+  HTML5 ✰ Boilerplate
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+/**
+ * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+ */
+
+body { font:13px/1.231 sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
+select, input, textarea, button { font:99% sans-serif; }
+
+/* Normalize monospace sizing:
+   en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+/**
+ * Minimal base styles.
+ */
+
+/* Always force a scrollbar in non-IE */
+html { overflow-y: scroll; }
+
+
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+
+/* Remove margins for navigation lists */
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+
+
+
+/**
+ * You might tweak these..
+ */
+
+body, select, input, textarea {
+  color: #555;
+  font-family: 'Runda', "runda-1","runda-2", 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* These selection declarations have to be separate  */
+/*::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }*/
+
+
+/**
+ * Non-semantic helper classes: please define your styles before this section.
+ */
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+
+
+body {
+  background: white;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+    
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.wf-active h1 {
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  color: #999;
+}
+
+p, ul, ol, pre, article iframe, blockquote {
+  margin-bottom: 1.0em;
+}
+
+.transitions-ready a {
+  -webkit-transition: color 3.0s linear;
+     -moz-transition: color 3.0s linear;
+       -o-transition: color 3.0s linear;
+          transition: color 3.0s linear;
+}
+
+
+.blog header h1 {
+  font-size: 26px;
+  margin-bottom: 0.3em;
+}
+
+
+a, a:visited { 
+  color: #F05; 
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+a:active { background: white; }
+
+p a { font-weight: 500;}
+
+/**** Layout ****/
+
+#wrap {
+  max-width: 588px;
+  padding: 10px;
+}
+
+/**** Masthead ****/
+
+#masthead {
+  padding: 10px 0;
+}
+
+#masthead h1 {
+  font-size: 32px;
+  margin-bottom: 0.1em;
+}
+
+#masthead h2 {
+  font-size: 16px;
+  font-style: italic;
+  color: #CCC;
+  font-weight: 400;
+}
+
+
+/**** Layout ****/
+
+#masthead, article {
+  border-bottom: 4px double #DDD;
+  
+}
+
+article {
+  padding: 30px 0;
+}
+
+
+.date {
+  margin-bottom: 0.5em;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+blockquote {
+  padding: 10px;
+  font-style: italic;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+
+/* Pagination */
+
+#pagination {
+  position: relative;
+  margin: 3.0em 0;
+}
+
+#pagination .current {
+  text-align: center;
+  font-style: italic;
+}
+
+#pagination .next,
+#pagination .previous {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+#pagination .previous { left: 0; }
+#pagination .next { right: 0; }
+
+
+/* code */
+
+pre { 
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+code { font-size: 12px; }
+
+/* Pygments */
+
+
+code .s1,
+code .s { color: #78BD55; } /* string */
+code .mi, /* integer */
+code .cp, /* doctype */
+code .kc { color: #5298D4; } /*boolean*/
+code .k { color: #E39B79; } /* keyword */
+code .kd, /* storage */
+code .na { color: #A9D866; } /* markup attribute */
+code .p  { color: #EDB; } /* punctuation */
+code .o  { color: #F63; }   /* operator */
+code .nb { color: #AA97AC;} /* support */
+
+/* comment */
+code .c,
+code .c1 { color: #666; font-style: italic; }
+
+code .nt { color: #A0C8FC; } /* Markup open tag */
+
+code .nf { color: #9EA8B8; } /* css id */
+code .nc { color: #A78352; }  /* CSS class */
+code .m  { color: #DE8E50; } /* CSS value */
+code .nd { color: #9FAD7E; } /* CSS pseudo selector */
+  
+
+
+
+
+
+@media screen and (min-width: 720px) {
+  #wrap {
+    margin-left: 15%;
+  }
+}
+
+/*
+ * print styles
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } /* black prints faster: sanbeiji.com/archives/953 */
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+
