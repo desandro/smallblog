@@ -1,8 +1,12 @@
 
-<article>
+<article class="{{ post.category }}">
   <p class="date"><a href="{{ post.url }}">{{ post.date | date:'%d %b %Y' }}</a></p>
   
-  <h1>{{ post.title }}</h1>
+  {% if post.category == 'link' %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% else %}
+    <h1>{{ post.title }}</h1>
+  {% endif %}
 
   <div class="content">
     {% if single_post %}

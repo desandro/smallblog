@@ -4,6 +4,6 @@ pygments: true
 paginate: 10
 
 # site-wide variables
-name: David DeSandro
+name: Smallblog
 url: http://smallblog.desandro.com
 css_version: '01'

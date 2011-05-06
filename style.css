@@ -111,7 +111,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2em;
   margin-bottom: 0.5em;
   color: #999;
@@ -126,12 +126,6 @@ p, ul, ol, pre, article iframe, blockquote {
      -moz-transition: color 3.0s linear;
        -o-transition: color 3.0s linear;
           transition: color 3.0s linear;
-}
-
-
-.blog header h1 {
-  font-size: 26px;
-  margin-bottom: 0.3em;
 }
 
 
@@ -186,7 +180,7 @@ article {
 
 .date {
   margin-bottom: 0.5em;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
@@ -198,6 +192,10 @@ blockquote {
 }
 blockquote p:last-child { margin-bottom: 0; }
 
+.link h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
 
 /* Pagination */
 
