@@ -7,6 +7,8 @@ layout: blog
 
 ---
 
+<object width="512" height="288"><param name="movie" value="http://www.hulu.com/embed/T5YssyJeGK-YNAmKRCzmKg"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.hulu.com/embed/T5YssyJeGK-YNAmKRCzmKg" type="application/x-shockwave-flash"  width="512" height="288" allowFullScreen="true"> </embed></object>
+
 Discovered via [Jonathan Blow's talk](/2011/games-human-condition).
 
 > In latter times, I think that artists and writers have allowed themselves to be sold down the river. They have accepted the prevailing belief that art and writing are merely forms of entertainment. They are not seen as transformative forces that can change a human being, that can change a society. They are seen as simple entertainment. Things with which to fill 20 minutes, half an hour while we are waiting to die.
