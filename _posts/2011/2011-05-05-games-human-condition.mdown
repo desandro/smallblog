@@ -2,7 +2,7 @@
 
 title: Games and the Human Condition by Jonathan&nbsp;Blow
 category: link
-url: http://the-witness.net/news/?p=650
+link_url: http://the-witness.net/news/?p=650
 layout: blog
 
 ---

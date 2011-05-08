@@ -3,7 +3,7 @@
   <p class="date"><a href="{{ post.url }}">{{ post.date | date:'%d %b %Y' }}</a></p>
   
   {% if post.category == 'link' %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.link_url }}">{{ post.title }}</a></h2>
   {% else %}
     <h1>{{ post.title }}</h1>
   {% endif %}

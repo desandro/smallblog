@@ -2,7 +2,7 @@
 
 title: The Mindscape of Alan Moore
 category: link
-url: http://www.hulu.com/watch/202240/the-mindscape-of-alan-moore
+link_url: http://www.hulu.com/watch/202240/the-mindscape-of-alan-moore
 layout: blog
 
 ---

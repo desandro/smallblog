@@ -2,7 +2,7 @@
 
 title: Jonathan Blow - How and Why
 category: link
-url: http://www.youtube.com/watch?v=RsT-5VSqk8I
+link_url: http://www.youtube.com/watch?v=RsT-5VSqk8I
 layout: blog
 
 ---
