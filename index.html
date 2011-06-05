@@ -9,6 +9,11 @@ layout: nil
 
 <nav id="pagination">
   {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      {% assign previous_link = '/' %}
+    {% else %}
+      {% capture previous_link %}../page{{ paginator.previous_page }}{% endcapture %}
+    {% endif %}
     <p class="previous"><a href="{{ previous_link }}">Previous</a></p>
   {% endif %}    
   <p class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
