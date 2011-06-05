@@ -1,7 +1,6 @@
 ---
 
 title: Dance yrself clean
-published: false
 layout: blog
 
 ---
@@ -16,3 +15,6 @@ Listening again to Mr. Murphey's nine minute masterpiece, an answer coalesces.  
 
 At the end of the day, web design is neat. But I can't imagine it moving anybody. I can't imagine it opening up a part of someone that they didn't know that had in them.  I can't imagine anyone buying it as a poster and sticking it up on their wall cause that's how they want their college friends to identify them.
 
+Emotion is what makes it stick to your ribs. And right now, web design just doesn't have it.
+
+We ought to fix that.
