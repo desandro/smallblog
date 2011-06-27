@@ -2,6 +2,7 @@
 permalink: /:year/:title
 pygments: true
 paginate: 10
+exclude: [ newpost.sh ]
 
 # site-wide variables
 name: Smallblog

@@ -1,0 +1,7 @@
+---
+
+title: POST_TITLE
+layout: blog
+
+---
+
