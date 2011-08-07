@@ -149,6 +149,7 @@ p a { font-weight: 500;}
 
 #masthead {
   padding: 10px 0;
+  position: relative;
 }
 
 #masthead h1 {
@@ -163,6 +164,14 @@ p a { font-weight: 500;}
   font-weight: 400;
 }
 
+#masthead ul {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 48px;
+  font-size: 0.95em;
+}
 
 /**** Layout ****/
 
