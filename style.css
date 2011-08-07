@@ -205,6 +205,11 @@ blockquote p:last-child { margin-bottom: 0; }
   font-size: 18px;
 }
 
+article img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Pagination */
 
 #pagination {
