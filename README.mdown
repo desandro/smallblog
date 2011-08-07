@@ -1,4 +1,4 @@
-## Smallblog
+# Smallblog
 
 [**smallblog.desandro.com**](http://smallblog.desandro.com)
 
