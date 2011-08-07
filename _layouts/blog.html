@@ -1,8 +1,72 @@
-{% include html-head.html %}
-
-  {% assign post = page %}
-  {% assign single_post = true %}
-  {% include blog-post.html %}
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <meta name="author" content="David DeSandro" />
+  <meta name="generator" content="Jekyll by way of GitHub Pages" />
   
-{% include html-foot.html %}
+  <title>{{ site.name }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+  
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/desandro-smallblog" title="RSS" /> 
+
+  <link rel="stylesheet" href="/style.css?v{{ site.css_version }}" />
+  <script src="http://use.typekit.com/ajk0pjo.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+  
+  <div id="wrap">
+    
+    <header id="masthead">
+      <h1><a href="/">Smallblog</a></h1>
+      <h2>by David DeSandro</h2>
+      <ul>
+        <li><a href="http://feeds.feedburner.com/desandro-smallblog">RSS Feed</a></li>
+      </ul>
+    </header>
+    
+    {% if page.is_index %}
+
+      {% for post in paginator.posts %}
+        {% include blog-post.html %}
+      {% endfor %}
+      
+      <nav id="pagination">
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+            {% assign previous_link = '/' %}
+          {% else %}
+            {% capture previous_link %}../page{{ paginator.previous_page }}{% endcapture %}
+          {% endif %}
+          <p class="previous"><a href="{{ previous_link }}">Previous</a></p>
+        {% endif %}    
+        <p class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+        {% if paginator.next_page %}
+          <p class="next"><a href="../page{{ paginator.next_page }}">Next</a></p>
+        {% endif %}
+      </nav>
+      
+    {% else %}
+      {% assign post = page %}
+      {% assign single_post = true %}
+      {% include blog-post.html %}
+    {% endif %}
+    
+    
+    
+  </div> <!-- #wrap -->
+
+  <script src="http://desandro.com/mint/?js"></script>
+
+  <!-- <script>
+    var _gaq=[['_setAccount','UA-592624-5'],['_trackPageview'],['_setDomainName', '.metafizzy.co']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script> -->
+
+</body>
+</html>
