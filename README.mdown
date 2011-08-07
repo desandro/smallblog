@@ -4,8 +4,8 @@
 
 Runs on [Jekyll](https://github.com/mojombo/jekyll), served by [GitHub Pages](http://pages.github.com)
 
-New posts can be generated with the [newpost base script](newpost.sh):
+New posts can be generated with the _newpost.sh_ bash script:
 
     $ ./newpost.sh a-text-post text
 
-This will generate a file like `_posts/2011/2011-08-06-a-text-post.mdown`, copying the contents of  [_posts/text.mdown](_posts/text.mdown) as the template.
+This will generate a file like `_posts/2011/2011-08-06-a-text-post.mdown`, copying the contents of  __posts/text.mdown_ as the template.
