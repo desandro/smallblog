@@ -2,7 +2,7 @@
 
 title: Mark Wunsch on Inky
 category: link
-link_url: LINK_URL
+link_url: http://mwunsch.tumblr.com/post/1167518196/inky
 layout: blog
 
 ---
