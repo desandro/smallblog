@@ -1,7 +1,7 @@
 # Jekyll config
 permalink: /:year/:title
 pygments: true
-paginate: 10
+paginate: 15
 exclude: [ newpost.sh ]
 
 # site-wide variables
