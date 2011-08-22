@@ -1,0 +1,14 @@
+---
+
+title: Undiscovered / Unshared
+layout: blog
+
+---
+
+I tried googling for one of my favorite songs, _Equinox_ by [Aloha](http://www.myspace.com/aloha). While the search returned a [multitude of "relevant" results](http://www.google.com/search?&q=aloha+equinox), there was not a single piece of content that was created by a human solely for the song. All of the results were auto-generated pages, created by machines that parsed album catalogs and in turn update their own catalogs and databases.
+
+Connectivity is an incredible wonder of the internet. The ability to scan the near infinite pieces of information maintains its self-organizing nature, thus dramatically simplifying the task of finding the few individuals in the world who happen to share your particular idiosyncratic interest or characteristic.
+
+So it's a unique scenario to enter a search term that yields no personal results. I expected to find the others that shared my love for this song. But it makes my interest all the more special, like I'm the only one in the world that knows about it.
+
+<object width="250" height="40"><param name="movie" value="http://grooveshark.com/songWidget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=cowbell.grooveshark.com&songIDs=25109445&style=metal&p=0" /><embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="250" height="40" flashvars="hostname=cowbell.grooveshark.com&songIDs=25109445&style=metal&p=0" allowScriptAccess="always" wmode="window" /></object>
