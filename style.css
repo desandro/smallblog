@@ -186,8 +186,10 @@ article {
 
 
 blockquote {
-  padding: 10px;
-  font-style: italic;
+  padding: 10px 10px 10px 15px;
+/*  font-style: italic;*/
+  border-left: 1px solid #DDD;
+  margin-left: 5px;
 }
 blockquote p:last-child { margin-bottom: 0; }
 
