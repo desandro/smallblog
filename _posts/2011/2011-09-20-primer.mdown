@@ -2,6 +2,7 @@
 
 title: Primer
 layout: blog
+category: text
 
 ---
 

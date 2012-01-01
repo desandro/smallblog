@@ -1,6 +1,7 @@
 ---
 
 title: Horizon - Are We Alone in the Universe?
+category: text
 layout: blog
 
 ---

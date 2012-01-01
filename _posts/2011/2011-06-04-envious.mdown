@@ -1,6 +1,7 @@
 ---
 
 title: Envious
+category: text
 layout: blog
 
 ---

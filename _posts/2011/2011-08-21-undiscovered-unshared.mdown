@@ -1,6 +1,7 @@
 ---
 
 title: Undiscovered / Unshared
+category: text
 layout: blog
 
 ---

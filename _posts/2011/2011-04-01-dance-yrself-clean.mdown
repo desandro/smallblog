@@ -1,6 +1,7 @@
 ---
 
 title: Dance yrself clean
+category: text
 layout: blog
 
 ---

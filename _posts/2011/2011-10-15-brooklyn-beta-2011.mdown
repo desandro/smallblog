@@ -2,6 +2,7 @@
 
 title: Brooklyn Beta 2011
 layout: blog
+category: text
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 title: Mysteries now solved
+category: text
 layout: blog
 
 ---

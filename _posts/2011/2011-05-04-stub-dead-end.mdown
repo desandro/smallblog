@@ -1,6 +1,7 @@
 ---
 
 title: A stub, a dead-end
+category: text
 layout: blog
 
 ---
