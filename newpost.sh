@@ -1,18 +1,20 @@
 #!/bin/bash
 
-# creates a new post
-# format as _posts/YYYY/YYYY-MM-DD-filename.ext
-# usage
-#     $ ./newpost.sh my-new-post-filename text
+# creates a new post by copying from a template
 
-COPY_FILE=_posts/$2.mdown
-# get file extension http://unix.stackexchange.com/questions/1571/bash-get-file-extension
-COPY_FILE_NAME=$(basename $COPY_FILE)
-COPY_FILE_EXT=${COPY_FILE_NAME##*.}
+echo "Creating new post"
+
+# get template
+read -p "Enter template [ text, link ]: " TEMPLATE
+read -p "Enter slug, i.e. my-post-slug: " SLUG
+
+COPY_FILE=_posts/$TEMPLATE.mdown
+
 # create file
-POST_FILE=_posts/$(date "+%Y/%Y-%m-%d")-$1.$COPY_FILE_EXT
+POST_FILE=_posts/$(date "+%Y/%Y-%m-%d")-$SLUG.mdown
 
-echo new post: $POST_FILE
+# echo new post:
+echo $POST_FILE
 cp $COPY_FILE $POST_FILE
 # open it
 mate $POST_FILE
