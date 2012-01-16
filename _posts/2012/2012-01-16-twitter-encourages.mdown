@@ -1,0 +1,23 @@
+---
+
+title: POST_TITLE
+category: text
+layout: blog
+published: false
+
+---
+
+Today I came across a blog post _referencing_ a tweet written _in reaction_ to some kerfuffle regarding rock star web designers. The blog post, tweet, and kerfuffle all occurred about a month ago. With a 30 day time lapse, and  after this large time span
+
+Twitter and Facebook posts have been revolutionary in the way they can instantly connect us. But they are designed to facilitate a certain type of communication.
+
+
++ Fast, in the time span between stimulus and response
++ Short
+
+Twitter, along with its fellow ilk of Facebook and Google+ posts, is an incredible medium for brief, timely ideas and observations. Conversely, it is a terrible medium for lengthy, complex ideas.
+
+Communication is a liquid. It flows and spills and torrents. It takes the shape of its container.
+
+When the shape of the container, the shape of the medium, is best suited for smaller, simpler forms, it follows that the content for that container will be smaller and simpler.
+
