@@ -3,15 +3,15 @@
 title: Twitter Bootstrap, a Beautiful Default
 category: text
 layout: blog
-published: false
 
 ---
 
-A couple recent sites using [Bootstrap](http://twitter.github.com/bootstrap/):
+A couple recent sites using [Twitter Bootstrap](http://twitter.github.com/bootstrap/):
 
 + [Crate.io](https://crate.io/)
 + [Cinemagram](http://cinemagr.am/)
 + [Moment.js](http://momentjs.com/)
++ [whitehouse.gov - Digital Government](http://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html)
 
 ---
 
@@ -24,8 +24,10 @@ Jamie Kosoy on the Beautiful Default ([again](/2012/01/the-parable-of-the-preloa
 
 > There's a sameness to them that's comforting and easy to use, but there are also opportunities to be expressive and interesting that are lost. There are too many developers and designers giving up on craftsmanship to build "good enough" sites and apps.
 
-I realize devvin' ain't easy, but when I see these sites, I feel a pang of disappointment. Twitter Bootstrap works best as foundation, something you build off of. Sure, you can get away using the Beautiful Default, but in doing you risk losing the sense of whimsy and personality that makes sites memorable.
+I realize devvin' ain't easy, but when I see these sites, I feel a pang of disappointment.
 
-We are so obsessed with usability and efficiency we can lose sight of the qualities that make for **good stuff**. You know the name of your favorite band when you were a teenager. But do you remember
+A Beautiful Default, like Twitter Bootstrap, works best as foundation -- something you build off of. When left unchanged, you risk losing the sense of whimsy and personality that makes sites memorable.
 
-I will never forget [jonlax.com](http://jonlax.com/).
+We can be so focused with usability and efficiency we can lose sight of the qualities that make for _the good stuff_.
+
+To that note, I will never forget [jonlax.com](http://jonlax.com/).
