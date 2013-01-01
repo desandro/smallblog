@@ -1,0 +1,10 @@
+---
+
+title: "Jonathan Blow: What I Did on My Christmas Vacation"
+category: link
+link_url: LINK_URL
+layout: blog
+
+---
+
+Programming, burnout, and doing the best work of your life.
