@@ -1,4 +1,6 @@
 # Jekyll config
+safe: true
+lsi: false
 permalink: /:year/:title
 pygments: true
 paginate: 15
