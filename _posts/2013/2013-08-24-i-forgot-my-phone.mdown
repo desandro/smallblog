@@ -2,9 +2,9 @@
 
 title: "Charlene deGuzman: I Forgot My Phone"
 category: link
-link_url: http://www.youtube.com/watch?v=OINa46HeWg8
+link_url: "http://www.youtube.com/watch?v=OINa46HeWg8"
 layout: blog
 
 ---
 
-## hello world
+<iframe width="580" height="435" src="//www.youtube.com/embed/OINa46HeWg8" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
