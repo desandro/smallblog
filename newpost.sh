@@ -8,10 +8,10 @@ echo "Creating new post"
 read -p "Enter template [ text, link ]: " TEMPLATE
 read -p "Enter slug, i.e. my-post-slug: " SLUG
 
-COPY_FILE=_posts/$TEMPLATE.mdown
+COPY_FILE=_posts/$TEMPLATE.md
 
 # create file
-POST_FILE=_posts/$(date "+%Y/%Y-%m-%d")-$SLUG.mdown
+POST_FILE=_posts/$(date "+%Y/%Y-%m-%d")-$SLUG.md
 
 # echo new post:
 echo $POST_FILE
