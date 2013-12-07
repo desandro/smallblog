@@ -77,8 +77,8 @@ body, select, input, textarea {
 
 body {
   background: white;
-  font-size: 14px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
     
@@ -88,8 +88,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
-  line-height: 1.2em;
+  font-size: 2.0em;
+  line-height: 1.2;
   margin-bottom: 0.5em;
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.5em;
   line-height: 1.2em;
   margin-bottom: 0.5em;
   color: #999;
@@ -141,25 +141,25 @@ hr {
 /**** Layout ****/
 
 #wrap {
-  max-width: 588px;
-  padding: 10px;
+  max-width: 42em;
+  padding: 1.0em;
   padding-bottom: 3.0em;
 }
 
 /**** Masthead ****/
 
 #masthead {
-  padding: 10px 0;
+  padding: 1.0em 0;
   position: relative;
 }
 
 #masthead h1 {
-  font-size: 32px;
+  font-size: 2.5em;
   margin-bottom: 0.1em;
 }
 
 #masthead h2 {
-  font-size: 16px;
+  font-size: 1.15em;
   font-style: italic;
   color: #CCC;
   font-weight: 400;
@@ -182,29 +182,29 @@ hr {
 }
 
 article {
-  padding: 100px 0;
+  padding: 6.0em 0;
 }
 
 
 .date {
   margin-bottom: 0.5em;
-  font-size: 12px;
+  font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
 
 blockquote {
-  padding: 10px 10px 10px 15px;
+  padding: 0.8em 0.8em 0.8em 1.0em;
 /*  font-style: italic;*/
   border-left: 1px solid #DDD;
-  margin-left: 5px;
+  margin-left: 0.5em;
 }
 blockquote p:last-child { margin-bottom: 0; }
 
 .link h2 {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 article img {
@@ -226,7 +226,7 @@ article img {
 
 #pagination .next,
 #pagination .previous {
-  font-size: 14px;
+  font-size: 1.2em;
   position: absolute;
   top: 0;
   text-transform: uppercase;
@@ -240,12 +240,12 @@ article img {
 /* code */
 
 pre { 
-  padding: 10px;
+  padding: 0.8em;
   background: black;
   color: white;
 }
 
-code { font-size: 12px; }
+code { font-size: 0.9em; }
 
 /* Pygments */
 
@@ -280,7 +280,7 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 
 @media screen and (min-width: 720px) {
   #wrap {
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
 

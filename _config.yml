@@ -9,4 +9,4 @@ exclude: [ newpost.sh, notes.mdown ]
 # site-wide variables
 name: Smallblog
 url: http://smallblog.desandro.com
-css_version: '02'
+css_version: '03'
