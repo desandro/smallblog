@@ -2,7 +2,6 @@
 safe: true
 lsi: false
 permalink: /:year/:title
-pygments: true
 paginate: 15
 exclude: [ newpost.sh, notes.mdown ]
 
