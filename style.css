@@ -210,6 +210,7 @@ blockquote p:last-child { margin-bottom: 0; }
 article img {
   display: block;
   max-width: 100%;
+  margin: 2.4em 0;
 }
 
 /* Pagination */
