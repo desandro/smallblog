@@ -18,6 +18,8 @@ The woman from the portrait walks into that room.
 
 She's from Brazil. I hadn't reached out to her or the photographer. She knows the [original photo](https://www.flickr.com/photos/chinaglia/5913643193) exists, but not my derivative artwork. Imagine traveling across the globe, peaking into a museum room, and seeing your own face.
 
+[![Hugo mixed2 Breathing halftone portrait](http://i.imgur.com/j3tm4NQ.gif)](https://www.electricobjects.com/objects/1QBK)
+
 It's a lovely coincidence. But I'm embarrassed. The internet doesn't have to be full of strangers. Good neighbors introduce themselves.
 
-[![Hugo mixed2 Breathing halftone portrait](http://i.imgur.com/j3tm4NQ.gif)](https://www.electricobjects.com/objects/1QBK)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/chinaglia/5913643193/in/faves-16228681@N00/" title="Untitled"><img src="https://farm7.staticflickr.com/6008/5913643193_dbbdf0f600_z.jpg" width="640" height="425" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
