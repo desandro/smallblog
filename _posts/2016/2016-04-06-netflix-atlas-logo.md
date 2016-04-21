@@ -10,7 +10,7 @@ layout: blog
 
 ![Netflix Atlas colors](http://i.imgur.com/DVaUCDg.png)
 
-From the Atlas team:
+From the [Netflix Atlas](https://github.com/Netflix/atlas/wiki) team:
 
 > When Netflix doesn't work, teams go to their Atlas Dashboards to find out why. Atlas supports a robust alerting system, which allows Netflix to notice problems around the world before our users do.
 
