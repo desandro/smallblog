@@ -27,6 +27,6 @@ And finally
 
 ![Bootstrap logo, rejected](http://i.imgur.com/WOpKn5A.png)
 
-Alas, it was not to be. Mark passed on proceeding with this concept. And I get why. Even though this project started on a whim, I should have treated it like any proper creative project. The creative process works best when you collaborate with clients, building and refining ideas together. I made the error of jumping in with my own assumptions. I would have been better off getting Mark's input about what he was looking for: Bootstrap's values, character, vision, voice. The logo should have been based born out of the authors.
+Alas, it was not to be. Mark passed on proceeding with this concept. And I get why. Even though this project started on a whim, I should have treated it like any proper creative project. The creative process works best when you collaborate with clients, building and refining ideas together. I made the error of jumping in with my own assumptions. I would have been better off getting Mark's input about what he was looking for: Bootstrap's values, character, vision, voice. The logo should have been born out of the authors.
 
 It's a good logo. I'll add it to the portfolio. But I'm bummed I missed this opportunity.
